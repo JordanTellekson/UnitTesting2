@@ -1,0 +1,35 @@
+﻿@{
+    ViewData["Title"] = "Utility Functions";
+}
+
+<h1>Utility Functions</h1>
+
+<form method="post">
+    <h2>1. Count Vowels</h2>
+    <input type="text" name="vowelInput" placeholder="Enter text" />
+    <button type="submit">Count Vowels</button>
+    @if (ViewBag.VowelCount != null)
+    {
+        <p>Vowels: @ViewBag.VowelCount</p>
+    }
+
+    <hr />
+
+    <h2>2. Check Leap Year</h2>
+    <input type="number" name="leapInput" placeholder="Enter year" />
+    <button type="submit">Check Leap Year</button>
+    @if (ViewBag.LeapResult != null)
+    {
+        <p>@ViewBag.LeapResult</p>
+    }
+
+    <hr />
+
+    <h2>3. Check Palindrome Number</h2>
+    <input type="number" name="palindromeInput" placeholder="Enter number" />
+    <button type="submit">Check Palindrome</button>
+    @if (ViewBag.PalindromeResult != null)
+    {
+        <p>@ViewBag.PalindromeResult</p>
+    }
+</form>
