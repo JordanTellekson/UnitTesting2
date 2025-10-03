@@ -21,7 +21,8 @@ Includes a Dockerized setup and NUnit tests.
 ## Running the App
 1. Open the solution in Visual Studio.  
 2. Set `UnitTesting` as the startup project.  
-3. Press **F5**. The app will run in your browser.  
+3. Press **F5**. The app will run in your browser.
+4. Port is 9090
 
 ---
 
